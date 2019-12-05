@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  my_has = {:Deku => "One For All"}
+  my_hash = {:Deku => "One For All"}
 end
 
 def pioneer
@@ -18,7 +18,7 @@ end
 
 def my_hash_creator(key, value)
   my_hash_creator = {
-    key: value
+    :key => value
   }
 end
 
